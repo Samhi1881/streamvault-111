@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+# generated data / lake / models / results
+data/lake/
+data/raw/
+data/stream_in/
+models/
+results/
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoints/
+.DS_Store
+.idea/
+.vscode/
